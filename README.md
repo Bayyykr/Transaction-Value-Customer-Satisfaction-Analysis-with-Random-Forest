@@ -2,13 +2,13 @@
 
 
 
-\## 📌 Deskripsi Proyek
+\## Deskripsi Proyek
 
 Proyek ini bertujuan untuk menganalisis data transaksi penjualan guna memahami:
 
-1\. Faktor-faktor yang memengaruhi \*\*nilai total transaksi\*\*
+1\. Faktor-faktor yang memengaruhi nilai total transaksi
 
-2\. Hubungan antara \*\*kategori produk\*\* dan \*\*tingkat kepuasan pelanggan\*\*
+2\. Hubungan antara kategori produk dan tingkat kepuasan pelanggan
 
 
 
@@ -20,7 +20,7 @@ Analisis dilakukan menggunakan pendekatan \*\*data preprocessing, feature engine
 
 
 
-\## 📂 Dataset
+\## Dataset
 
 Dataset merupakan data simulasi transaksi penjualan yang menyerupai kondisi lapangan, berisi informasi:
 
@@ -58,11 +58,11 @@ Dataset melalui proses cleaning untuk menangani:
 
 
 
-\## ⚙️ Tahapan Analisis
+\## Tahapan Analisis
 
 
 
-\### 1️⃣ Data Cleaning
+\### Data Cleaning
 
 \- Konversi tipe data tanggal
 
@@ -76,7 +76,7 @@ Dataset melalui proses cleaning untuk menangani:
 
 
 
-\### 2️⃣ Feature Engineering
+\### Feature Engineering
 
 \- Membuat fitur `total\_transaksi = harga × jumlah`
 
@@ -84,9 +84,9 @@ Dataset melalui proses cleaning untuk menangani:
 
 
 
-\### 3️⃣ Regression
+\### Regression
 
-\*\*Tujuan:\*\*  
+Tujuan:
 
 Memprediksi nilai total transaksi
 
@@ -98,7 +98,7 @@ Random Forest Regressor + Hyperparameter Tuning (GridSearchCV)
 
 
 
-\*\*Evaluasi:\*\*  
+Evaluasi: 
 
 \- R² Score  
 
@@ -108,7 +108,7 @@ Random Forest Regressor + Hyperparameter Tuning (GridSearchCV)
 
 
 
-\*\*Insight:\*\*  
+Insight:  
 
 Feature importance digunakan untuk mengetahui faktor dominan yang memengaruhi nilai transaksi.
 
@@ -118,21 +118,21 @@ Feature importance digunakan untuk mengetahui faktor dominan yang memengaruhi ni
 
 
 
-\### 4️⃣ Classification
+\### Classification
 
-\*\*Tujuan:\*\*  
+Tujuan:  
 
 Menganalisis hubungan kategori produk dengan tingkat kepuasan pelanggan
 
 
 
-\*\*Model:\*\*  
+Model:  
 
 Random Forest Classifier + Hyperparameter Tuning
 
 
 
-\*\*Evaluasi:\*\*  
+Evaluasi:  
 
 \- Classification Report  
 
@@ -140,7 +140,7 @@ Random Forest Classifier + Hyperparameter Tuning
 
 
 
-\*\*Insight:\*\*  
+Insight:  
 
 Distribusi kepuasan pelanggan dianalisis per kategori produk.
 
@@ -150,7 +150,7 @@ Distribusi kepuasan pelanggan dianalisis per kategori produk.
 
 
 
-\## 📊 Hasil Utama
+\## Hasil Utama
 
 
 
@@ -166,7 +166,7 @@ Distribusi kepuasan pelanggan dianalisis per kategori produk.
 
 
 
-\## 🛠️ Tools \& Library
+\## Tools \& Library
 
 \- Python
 
@@ -182,7 +182,7 @@ Distribusi kepuasan pelanggan dianalisis per kategori produk.
 
 
 
-\## 🎯 Tujuan Pembelajaran
+\## Tujuan Pembelajaran
 
 Proyek ini dibuat sebagai portfolio untuk:
 
@@ -198,9 +198,9 @@ Proyek ini dibuat sebagai portfolio untuk:
 
 
 
-\## 👤 Author
+\## Author
 
-\*\*Mohamad Bayu Kristanto\*\*  
+Mohamad Bayu Kristanto  
 
 Mahasiswa Teknik Informatika  
 
@@ -212,7 +212,7 @@ Fokus: Data Science \& Machine Learning
 
 
 
-\## 📌 Catatan
+\## Catatan
 
 Notebook tersedia dalam tiga bagian:
 
