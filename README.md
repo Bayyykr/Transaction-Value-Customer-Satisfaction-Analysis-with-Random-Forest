@@ -12,7 +12,7 @@ Proyek ini bertujuan untuk menganalisis data transaksi penjualan guna memahami:
 
 
 
-Analisis dilakukan menggunakan pendekatan \*\*data preprocessing, feature engineering, dan machine learning\*\* dengan model Random Forest untuk regression dan classification.
+Analisis dilakukan menggunakan pendekatan data preprocessing, feature engineering, dan machine learning dengan model Random Forest untuk regression dan classification.
 
 
 
